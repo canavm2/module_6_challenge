@@ -22,7 +22,9 @@ Other than Python 3.7, the hvplot and geoviews packages are required, Jupyter La
 hvplot and geoviews can be installed form the CLI with the following:
 
 '''
+{
 conda install -c pyviz hvplot geoviews
+}
 '''
 
 
