@@ -11,27 +11,26 @@ The Jupyter Lab file follows along as an exercise to analyze risk and reward, fo
 The sheet requires Pandas for analyzing data frames in jupyter labs.
 It requires Jupyter Labs for a user interface.
 It requires Path from pathlib to help read .csv files.
-A custom python package MCForecastTools is used by the sheet.
-
-An alpaca account and API key is required.
+Requires hvplot (0.7.3) and geoviews(1.9.3)
 
 ---
 
 ## Installation Guide
 
-Other than Python 3.7, no installation is necessary, Jupyter Labs runs in a browser, including Chrome.  Launch the file by navigating to the directory of the file through a CLI and then running Jupyter labs, with "jupyter lab".
+Other than Python 3.7, the hvplot and geoviews packages are required, Jupyter Labs runs in a browser, including Chrome.  Launch the file by navigating to the directory of the file through a CLI and then running Jupyter labs, with "jupyter lab".
 
-Create an alpaca account here: [Alpaca Homepage](https://alpaca.markets/)
-Once you have an account use the account information to create and record an Alpaca API key and Secret Key.  Follow instructions to copy these keys into a ".env" file, which is not included with the repository since it contains sensitive data.
+hvplot and geoviews can be installed form the CLI with the following:
 
-The custom python package MCForecastTools is included with the sheets and is required for many of the monte carlo simulations.
+'''
+conda install -c pyviz hvplot geoviews
+'''
 
 
 ---
 
 ## Usage
 
-The worksheet runs through a scenario and teaches the user to import market data from the Alpaca API.
+The worksheet runs through a scenario and teaches the user to create interactive hvplots:
 
 ![Image of jupyter lab](jupyter_lab_image.PNG)
 
