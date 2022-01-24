@@ -2,7 +2,7 @@
 
 The module 6 challenge for fintech course
 
-The Jupyter Lab file follows along as an exercise to analyze risk and reward, following statistics like standard deviation, shapre ratio and beta.
+The Jupyter Lab file follows along as an exercise to produce interactive plots using the hvplot and geoview functionality with pandas.  Complex visualizations are possible, including overlaying them on maps.
 
 ---
 
@@ -21,11 +21,8 @@ Other than Python 3.7, the hvplot and geoviews packages are required, Jupyter La
 
 hvplot and geoviews can be installed form the CLI with the following:
 
-'''
-{
+
 conda install -c pyviz hvplot geoviews
-}
-'''
 
 
 ---
@@ -46,4 +43,4 @@ Michael Canavan
 
 ## License
 
-the content of the course is owned and managed by UC Berkeley Fintech Bootcamp.
+The content of the course is owned and managed by UC Berkeley Fintech Bootcamp.
